@@ -2,7 +2,7 @@
 title: "Practical Machine Learning Course Project"
 author: "M Tamaru Jones"
 date: "June 10, 2016"
-output: html_document
+output: pdf_document
 ---
 
 ##Background
