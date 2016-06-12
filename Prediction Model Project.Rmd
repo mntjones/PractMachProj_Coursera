@@ -110,10 +110,7 @@ With an accuracy of 99.5%, I am confident in moving forward to the test set with
 
 ##Expected Sample Error
 
-```{r}
-modRF$finalModel
-```
-The expected sample rate for the random tree method is 0.69% on the cross validation set, which is acceptable.
+The expected sample rate for the random tree method on the cross validation data set is 1-.995 = 0.005. This gives us a 0.5% expected sample error on the cross validation set, which is acceptable.
 
 ##Test Set Conclusions
 
