@@ -96,6 +96,7 @@ contRF <- trainControl(method="cv", number=3, verboseIter=FALSE)
 modRF <- train(classe ~ . , data = training, method = "rf", trControl = contRF)
 ```
 
+The model includes train control to specify method, number of resampling iterations, and a logical for printing training log. I set these parameters to: method: cross validation, 3 resampling iterations, and no printing of training log.
 
 ##Cross Validation
 
